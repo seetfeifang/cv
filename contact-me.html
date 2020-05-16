@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Me</title>
+  </head>
+  <body>
+    <h1>My Contact Details</h1>
+    <p>My Address</p>
+    <p>+65 9695 0412</p>
+    <p>seetfeifang@hotmail.com</p>
+    <hr />
+    <!-- 
+      method post past data to email app else nothing get passed
+      enctype encode the msg to remove weird symbol 
+    -->
+    <form
+      action="mailto:seetfeifang@hotmail.com"
+      method="POST"
+      enctype="text/plain"
+    >
+      <label for="">Your Name:</label>
+      <input type="text" name="yourName" value="" />
+      <br />
+      <label for="">Your Email:</label>
+
+      <input type="email" name="yourEmail" id="" />
+      <br />
+      <label for="">Your Message: </label>
+      <br />
+      <textarea name="yourMessage" id="" cols="30" rows="10"></textarea>
+
+      <br />
+      <input type="submit" name="" />
+
+      <!-- <label for="">Do you want to sign up? </label>
+      <input type="checkbox" name="" value="" />
+      <br />
+      <label for="">Password</label>
+      <input type="password" name="" id="" />     
+      <input type="color" name="" value="" />
+      <input type="file" name="" id="" />
+      <input type="date" name="" id="" />
+      <input type="radio" name="" id="" />
+      <input type="range" name="" id="" /> -->
+    </form>
+    <hr />
+    <a href="index.html">Home</a>
+  </body>
+</html>
